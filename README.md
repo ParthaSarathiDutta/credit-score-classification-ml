@@ -50,17 +50,21 @@ Credit scoring plays a critical role in determining an individual’s creditwort
 
 ## Results
 
-| Model              | Accuracy | F1 Score |
-|-------------------|----------|----------|
-| Logistic Regression | 85%     | 0.84     |
-| SVM                 | 87%     | 0.86     |
-| Random Forest       | 91%     | 0.91     |
-| XGBoost             | 92%     | 0.92     |
-| **MLP Classifier**  | **94%** | **0.93** |
+| Model               | Train Accuracy (%) | Test Accuracy (%) | Test F1 Score (%) |
+|---------------------|--------------------|-------------------|-------------------|
+| Random Forest       | 99.91              | 77.96             | 75.91             |
+| XGBoost             | **100.00**         | **79.12**         | **78.29**         |
+| Logistic Regression | 66.31              | 61.61             | 57.12             |
+| SVM (Polynomial)    | 67.67              | 67.64             | 66.17             |
+| SVM (RBF)           | 71.67              | 67.79             | 64.42             |
+| MLP                 | 76.65              | 70.80             | 69.23             |
 
-> MLP performed best across all evaluation metrics.
+> **Note:** XGBoost achieved the best overall performance on the test set. Random Forest shows high training accuracy but lower generalization, indicating potential overfitting.
+
 
 ---
+
+
 
 ## Repository Structure
 
