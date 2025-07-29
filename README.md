@@ -75,7 +75,7 @@ credit-score-classification-ml/
 ├── LICENSE                          # MIT License
 └── README.md                        # Project overview, usage guide, and results
 
-````
+```
 
 ---
 
@@ -85,7 +85,7 @@ credit-score-classification-ml/
    ```bash
    git clone https://github.com/YourUsername/credit-score-classification-ml.git
    cd credit-score-classification-ml
-````
+   ```
 
 2. Install required dependencies:
 
