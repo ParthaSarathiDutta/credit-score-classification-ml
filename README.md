@@ -37,7 +37,7 @@ Credit scoring plays a critical role in determining an individual’s creditwort
 
 ## Dataset
 
-- **Source**: [Kaggle / Proprietary]
+- **Source**: Proprietary financial dataset (not publicly available)
 - **File**: `credit_score_data.csv`
 - **Shape**: ~10,000 samples × 20+ features
 - **Preprocessing**:
